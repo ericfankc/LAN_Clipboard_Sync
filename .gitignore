@@ -1,0 +1,12 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE config files
+.vscode/
+.idea/
+
+# virtual environments
+venv/
+env/
