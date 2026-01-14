@@ -1,6 +1,6 @@
-# LAN_Clipboard_Sync - Local Network Clipboard & File Sync
+# Local Network Clipboard & File Sync
 
-**NetClip** is a lightweight, cross-platform P2P tool designed for seamless clipboard synchronization and secure file transfer over a Local Area Network (LAN). Built with Python, it operates completely offline without requiring an internet connection or cloud servers.
+**NetClip** is a lightweight, cross-platform P2P tool designed for seamless clipboard synchronization and secure file transfer over a Local Area Network (LAN). Built with Python, it operates completely offline, requiring neither an internet connection nor cloud servers.
 
 
 ## Key Features
@@ -34,7 +34,7 @@
 ## Usage
 
 1.  **Start the application**
-    Run the GUI application on at least two computers connected to the same Wi-Fi/LAN.
+    Run the GUI application on at least two computers connected to the same Wi-Fi network or local area network (LAN).
     ```bash
     python gui.py
     ```
@@ -63,7 +63,3 @@
 * **Data Transport**: Uses TCP on Port `10000` for reliable data transmission.
 * **Protocol Design**: Custom binary protocol with a 5-byte header (`Type` + `Length`) to handle TCP stream data correctly.
 * **Flow Control**: Large files are transferred in 64KB chunks to prevent memory overflow and update the UI progress bar smoothly.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
